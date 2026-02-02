@@ -2,7 +2,7 @@
 .container{
 	width:800px;
 	height:418px;
-	border:1px solid red;
+	/* border:1px solid red; */
 	background-color:black;
 	font-family:Arial,sans-serif;
 }
@@ -11,7 +11,7 @@
 	display:flex;
 	justify-content:space-between;
 	color:#BABABA;
-	margin-top:45px;
+	margin-top:58px;
 }
 .leftBtm{
 	padding-left:40px;
@@ -26,7 +26,8 @@
 	/* background-color:green; */
 	justify-content:space-between;
 	color:white;
-	margin-top:20px;
+	margin-top:0px;
+	padding-top:20px;
 
 	
 }
