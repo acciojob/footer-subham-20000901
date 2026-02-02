@@ -1,1 +1,96 @@
 /* your code here */
+.container{
+	width:800px;
+	height:418px;
+	border:1px solid red;
+	background-color:black;
+	font-family:Arial,sans-serif;
+}
+.bottom-details{
+	background-color:#2C303A;
+	display:flex;
+	justify-content:space-between;
+	color:#BABABA;
+	margin-top:45px;
+}
+.leftBtm{
+	padding-left:40px;
+}
+.rightBtm{
+	padding-right:40px;
+}
+.top{
+	width:800px;
+	height:50px;
+	display:flex;
+	/* background-color:green; */
+	justify-content:space-between;
+	color:white;
+	margin-top:20px;
+
+	
+}
+span{
+	padding-left:30px
+}
+.media-icons{
+	display:flex;
+	jsutify-content:space-between;
+	width:400px;
+	padding-top:8px;
+}
+.logo_name{
+	font-size:40px;
+	padding
+}
+.link-boxes{
+	display:flex;
+	padding-top:60px
+	/* background-color:green; */
+	
+}
+.link{
+	width:200px;
+	padding-left:30px
+}
+.services{
+   width:200px;	
+}
+.other{
+	width:200px;
+}
+h3{
+	color:white;
+}
+
+ul{ margin:0;
+    padding:0;
+	list-style-type:none;
+
+}
+li{
+	padding-top:16px
+}
+a{
+	   text-decoration:none;
+		color:#BABABA;
+}
+svg{
+	height:35px;
+	
+}
+.halfUnderline{
+	position:relative;
+	display:inline-block;
+	
+}
+.halfUnderline::before{
+  content: "";
+  position:absolute;
+  left: 0;
+  bottom: -6px;
+  width: 50%;
+  height: 2px;
+  background: #fff;
+	
+}
